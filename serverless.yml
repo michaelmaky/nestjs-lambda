@@ -29,3 +29,7 @@ functions:
         cors: true
         path: '{proxy+}'
         method: any
+    - http:
+        cors: true
+        path: '/pet'
+        method: any
